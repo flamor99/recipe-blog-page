@@ -1,0 +1,114 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+
+.Recipe {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem 2.5rem;
+  max-width: 680px;
+  border-radius: 20px;
+}
+.recipe-image {
+  width: 100%;
+  border-radius: 12px;
+}
+table {
+  width: 100%;
+  padding-left: 2rem;
+
+  border-collapse: collapse;
+  padding: 0.5rem 0;
+}
+
+.with-border {
+  border-bottom: 1px solid hsl(30, 10%, 34%, 30%);
+  margin-bottom: 1rem;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1.2rem;
+  color: hsl(24, 5%, 18%, 90%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+p {
+  color: hsl(30, 10%, 34%, 80%);
+  line-height: 1.5;
+  margin: 0.8rem 0;
+}
+ul,
+ol {
+  padding-left: 1.9rem;
+}
+li p {
+  margin: 0.8rem 1.7rem;
+}
+
+ul li::marker,
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+td {
+  padding: 15px 1.5rem;
+  color: hsl(30, 10%, 34%, 80%);
+}
+
+.recipe-details {
+  background-color: hsl(330, 100%, 98%);
+  padding: 0.7rem 2rem;
+  border-radius: 12px;
+  margin: 1.8rem 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+hr {
+  margin: 2.5rem 0;
+  border: 0.6px solid hsl(30, 10%, 34%, 30%);
+}
+
+.span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+@media (max-width: 850px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .Recipe {
+    max-width: 850px;
+    margin: 0;
+    padding-top: 0;
+    padding-inline: 1.6rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+  .recipe-image {
+    border-radius: 0;
+    width: 100%;
+  }
+}
